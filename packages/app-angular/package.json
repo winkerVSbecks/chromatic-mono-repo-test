@@ -12,7 +12,8 @@
     "lint": "ng lint",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
-    "build-storybook": "npm run docs:json && build-storybook"
+    "build-storybook": "npm run docs:json && build-storybook",
+    "chromatic": "chromatic --project-token=49df66d5174d"
   },
   "devDependencies": {
     "@angular-builders/jest": "^11.0.0",

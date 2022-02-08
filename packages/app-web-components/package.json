@@ -10,7 +10,8 @@
   "scripts": {
     "build-storybook": "build-storybook",
     "generate-custom-elements-manifest": "yarn custom-elements-manifest analyze --litelement --dev --exclude \"./**/*.stories.ts\" --exclude \"./storybook-static\"",
-    "storybook": "start-storybook -p 9006 --no-manager-cache"
+    "storybook": "start-storybook -p 9006 --no-manager-cache",
+    "chromatic": "chromatic --project-token=2ada5384cd84"
   },
   "resolutions": {
     "@storybook/addon-a11y": "portal:../../addons/a11y",
